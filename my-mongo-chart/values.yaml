@@ -1,0 +1,19 @@
+mongodb:
+  name: mongodb
+  replicaCount: 1
+  image:
+    repository: mongo
+    tag: 4.4.6
+  service:
+    port: 27017
+  rootUsername: admin
+  rootPassword: password123
+
+mongoExpress:
+  name: mongo-express
+  replicaCount: 1
+  image:
+    repository: mongo-express
+    tag: 0.54.0
+  service:
+    port: 8081
