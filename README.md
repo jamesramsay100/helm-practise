@@ -40,3 +40,7 @@ helm history my-mongo-release
 ```shell
 helm uninstall my-mongo-release
 ```
+Verify:
+```shell
+kubectl get all
+```
