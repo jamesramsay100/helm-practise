@@ -3,11 +3,9 @@
 ```shell
 minikube start --vm-driver=hyperkit
 ```
-
 ```shell
 minikube status 
 ```
-
 ```shell
 kubectl get all
 ```
@@ -43,4 +41,7 @@ helm uninstall my-mongo-release
 Verify:
 ```shell
 kubectl get all
+```
+```shell
+minikube stop
 ```
